@@ -104,12 +104,12 @@ root = themes.ThemedTk()
 root.get_themes()
 root.geometry("1500x400")
 root.set_theme('black')
-root.attributes('-alpha',0.9)
+
 root.title('On-Screen Keyboard')
 root.iconbitmap(logo_path)
 root.config(bg='Black')
 root.resizable(False, False)
-
+root.attributes('-alpha',0.9)
 titleLabel = Label(root, text='- On-Screen Keyboard -', font=('Lucida Calligraphy', 20, 'bold'), bg='Black', fg='Grey')
 titleLabel.grid(row=0, columnspan=15)
 
